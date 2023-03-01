@@ -1,3 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Hanken Grotesk', sans-serif;
+  font-size: 18px;
+}
+
+body {
+  background-color: hsl(0, 0%, 100%);
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -5,4 +19,64 @@
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card-left {
+  text-align: center;
+  background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  color: white;
+  padding: 30px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.title,
+.sentence,
+.outOf {
+  color: hsl(241, 100%, 89%);
+}
+
+.title {
+  color: hsl(241, 100%, 89%);
+  font-size: 20px;
+}
+
+.circle {
+  background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+.score {
+  font-size: 60px;
+}
+
+.congrats {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.sentence {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.outOf {
+  font-size: 16px;
 }
